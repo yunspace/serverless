@@ -19,13 +19,7 @@ Make sure `serverless` is installed. [See installation guide](../../../guide/ins
 ## 2. Build using go build and create a static binary
 
 ```
-# Linux or OSX
-./build.sh
-```
-
-```
-# Windows PowerShell
-./build.cmd
+env GOOS=linux go build -o bin/main
 ```
 
 ## 3. Deploy
